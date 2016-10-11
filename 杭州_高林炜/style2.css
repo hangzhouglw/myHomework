@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#backgroundView{
+    width: 1200px;
+    height: 800px;
+    background: #333333;
+    margin: 0 auto;
+    position: relative;
+}
+
+#carouselContent{
+    width: 1200px;
+    height: 800px;
+    overflow: hidden;
+}
+
+#chooser{
+    width: 217px;
+    height: 25px;
+    /*background: #fff;*/
+    position: absolute;
+    left: 525px;
+    top: 750px;
+}
+.choosers{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: #fff;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+}
+
+/*#imageView{*/
+/*float: left;*/
+/*}*/
+
+#preButton{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+}
+#nextButton{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+}
