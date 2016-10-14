@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #2e2e2e;
+}
+#content{
+    width: 1000px;
+    height: 390px;
+    /*border: 1px solid;*/
+    margin: 10px auto;
+    position: relative;
+}
+
+#pre{
+    outline: none;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    background: #000;
+    opacity: .25;
+    position: absolute;
+    top: 35%;
+    left:5%;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+#next{
+    outline: none;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    background: #000;
+    opacity: .25;
+    position: absolute;
+    top: 35%;
+    right:5%;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.choosers{
+    outline: none;
+    text-decoration: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: #fff;
+    top: 90%;
+    cursor: pointer;
+}
+
+
+
+/*------content_two部分*/
+#content_two{
+
+    height: 288px;
+    width: 860px;
+    margin: 100px auto;
+    position: relative;
+}
+
+#two_pre{
+    outline: none;
+    text-decoration: none;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    /*font-weight: normal;*/
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: -67px;
+    cursor: pointer;
+}
+#two_next{
+    outline: none;
+    text-decoration: none;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    right: -67px;
+    cursor: pointer;
+}
+
+#black_left{
+    position: absolute;
+    height: 288px;
+    width: 318px;
+    background: #2e2e2e;
+    z-index: 11;
+    opacity: .6;
+}
+
+#black_right{
+    position: absolute;
+    height: 288px;
+    width: 318px;
+    left:542px;
+    background: #2e2e2e;
+    z-index: 11;
+    opacity: .6;
+}
